@@ -1,6 +1,8 @@
 # add-sub-encoder
 A 32 bit shellcode encoder using ADD and SUB. Encodes an egghunter by default,
-but the shellcode can be replaced with anything. By default, will print out both
+but the shellcode can be replaced with anything. Encodes based on a list of good characters that is
+defined in the script. This should be updated before using for your situation.
+By default, will print out both
 an ADD encoded payload and a SUB encoded payload. The output can be
 directly placed into other python scripts.
 
